@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 """ Module that defines the class Student
 """
@@ -16,4 +15,3 @@ class Student:
     def to_json(self):
         """ Method that returns directory description """
         return self.__dict__.copy()
-
